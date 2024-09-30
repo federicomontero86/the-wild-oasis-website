@@ -40,11 +40,10 @@ export default function BurguerNavigation() {
 
 const style = {
   nav: `block pl-0 mb-0`,
-  navbar: `font-light py-2 px-4`,
+  navbar: `font-light py-2`,
   collapse: `transition-height ease duration-300`,
-  toggler: `float-right pt-1.5 text-3xl focus:outline-none`,
-  link: `block cursor-pointer py-1.5 px-4  hover:text-gray-400 font-medium`,
-  brand: `inline-block pt-1.5 pb-1.5 mr-4 cursor-pointer text-2xl font-bold whitespace-nowrap hover:text-gray-400`,
+  toggler: `float-right text-3xl focus:outline-none`,
+  link: `block cursor-pointer py-1.5 px-0 hover:text-gray-400 font-medium`,
 };
 
 function HamburgerMenu({ children, bgColor, textColor }) {
