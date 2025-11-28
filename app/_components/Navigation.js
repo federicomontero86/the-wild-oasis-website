@@ -34,6 +34,8 @@ export default async function Navigation() {
                 className="h-8 rounded-full"
                 src={session.user.image}
                 alt={session.user.name}
+                width={32}
+                height={32}
                 referrerPolicy="no-referrer"
               />
               <span>Guest area</span>
